@@ -78,7 +78,8 @@ a {
   cursor: pointer;
 }
 
-.btn-title-page:hover {
+.btn-title-page:hover,
+.btn-title-page:focus {
   background-color: #404bbf;
 }
 
