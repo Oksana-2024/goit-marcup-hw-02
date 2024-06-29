@@ -111,3 +111,7 @@ a {
 .text-footer {
   color: #f4f4fd;
 }
+
+.hidden {
+  display: none;
+}
