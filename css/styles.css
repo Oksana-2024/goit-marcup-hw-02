@@ -58,6 +58,10 @@ a {
   background-color: #2e2f42;
 }
 
+.team-list {
+background-color: #fff;
+}
+
 .text-title-page {
   font-weight: 700;
   font-size: 56px;
@@ -86,6 +90,7 @@ a {
 .team-page {
   background-color: #f4f4fd;
 }
+
 .title-team-page,
 .title-portfolio-page {
   font-weight: 700;
