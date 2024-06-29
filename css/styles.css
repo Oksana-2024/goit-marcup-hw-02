@@ -90,6 +90,10 @@ background-color: #FFFFFF;
   background-color: #f4f4fd;
 }
 
+.team-item {
+background-color: #FFFFFF;
+}
+
 .title-team-page,
 .title-portfolio-page {
   font-weight: 700;
