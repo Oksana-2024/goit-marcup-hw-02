@@ -35,9 +35,12 @@ a {
   color: #2e2f42;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-link {
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -75,17 +78,22 @@ a {
   cursor: pointer;
 }
 
-.btn-title-page:focus {
+.btn-title-page:hover {
   background-color: #404bbf;
 }
 
+.team-page {
+  background-color: #f4f4fd;
+}
 .title-team-page,
 .title-portfolio-page {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.12;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .features-subtitle,
@@ -110,8 +118,4 @@ a {
 .logo-footer,
 .text-footer {
   color: #f4f4fd;
-}
-
-.hidden {
-  display: none;
 }
