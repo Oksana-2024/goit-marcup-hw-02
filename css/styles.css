@@ -50,14 +50,15 @@ a {
   color: #404bbf;
 }
 
-.title-page, .footer-page {
+.title-page,
+.footer-page {
   background-color: #2e2f42;
 }
 
 .text-title-page {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -71,13 +72,25 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn-title-page:focus {
   background-color: #404bbf;
 }
 
-h3 {
+.title-team-page,
+.title-portfolio-page {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -85,17 +98,16 @@ h3 {
   color: #2e2f42;
 }
 
-p {
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.features-descr,
+.team-descr,
+.portfolio-descr,
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-h2 {
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.12;
-letter-spacing: 0.02em;
-color: #2e2f42;
+.logo-footer,
+.text-footer {
+  color: #f4f4fd;
 }
